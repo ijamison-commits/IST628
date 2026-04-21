@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="eadcbs6-su1.xsl"?> -->
+
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://libead.syr.edu/ead.dtd" >
+
+<ead relatedencoding="MARC21">
+
+   <!-- ****************************************************************** -->
+   <!-- Instructions:
+        1) Anywhere you see hash marks ##, you need to replace the hash marks and 
+           the associated text with your own information about your collection.
+        2) All items are required unless marked OPT.  
+        3) Any optional items not used should be commented out so that they don't 
+           appear in the browser view of the finding aid. -->
+
+   <!-- ****************************************************************** -->
+
+
+
+   <!-- ****************************************************************** -->
+   <!-- The EADHEADER section contains information about the FINDING AID   -->
+   <!-- ****************************************************************** -->
+
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" relatedencoding="MARC21">
+
+      <eadid countrycode="US" mainagencycode="NSyL" encodinganalog="856$u" identifier="jamison_i">jamison_i</eadid>
+
+      <!-- The "filedesc" section gives the title of the finding aid, and tells who published it -->
+
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="Title">Central New York Coalition for Adult and Continuing Education (CNY-CACE) Records</titleproper>
+            <author encodinganalog="Creator">Iman Jamison</author></titlestmt>
+            <publicationstmt>
+               <publisher encodinganalog="Publisher">Special Collections Research Center, Syracuse University Libraries</publisher>
+            <address>
+               <addressline>Syracuse, NY</addressline>
+            </address>
+            <date normal="2026-04-20" encodinganalog="Date">2026-04-20</date>
+         </publicationstmt>
+      </filedesc>
+
+
+      <!-- The "profiledesc" section gives information about the author of the finding aid -->
+      <profiledesc>
+         <creation>
+            Iman Jamison
+            <date normal="2026-04-20">2026-04-20</date>
+         </creation>
+         <langusage>
+            <language langcode="eng" encodinganalog="Language">English</language>
+         </langusage>
+      </profiledesc>
+
+      <!-- The "revisiondesc" section is for documenting creation of and changes to the finding aid.
+           Enter revisions in the format "## date - ## change (## initials)"-->
+      <!-- <revisiondesc>
+         <change>
+            <date>##</date>
+            <item>##</item>
+         </change>
+      </revisiondesc> -->
+
+   </eadheader>
+
+   <!-- ************  end of EADHEADER section ********** -->
+
+
+
+   <!-- ************************************************************** -->
+   <!-- The ARCHDESC section contains information about the COLLECTION -->
+   <!-- ************************************************************** -->
+
+   <archdesc level="collection" type="register" relatedencoding="MARC21">
+
+      <!-- ******************************************************************** -->
+      <!-- This first part gives the collection-level description: size,        -->
+      <!-- dates, languages, etc.  Note that many of these map to MARC fields,  -->
+      <!-- as given in the "encodinganalog" attribute.                          -->
+      <!-- ******************************************************************** --> 
+
+      <did>
+         <head>Overview of the Collection</head>
+         <unittitle encodinganalog="245$a" label="Title: ">Central New York Coalition for Adult and Continuing Education (CNY-CACE) Records</unittitle>
+         <unitdate encodinganalog="245$f" normal="1989/1999" type="inclusive" label="Inclusive Dates: ">1989-1999</unitdate>
+         		
+         <unitid countrycode="US" repositorycode="NSyL" label="Record Series:" encodinganalog="099">Record Series: 910.3</unitid>
+         <origination label="Creator: ">
+            <!-- Give the name of the person or organization who created the collection; choose ONE, not BOTH -->
+            <corpname encodinganalog="110">Central New York Coalition for Adult and Continuing Education (CNY-CACE)</corpname>
+         </origination>
+         <physdesc encodinganalog="300$a" label="Quantity: "><extent unit="linear feet">3 linear ft.</extent></physdesc>
+         <!-- <physdesc encodinganalog="300$a" label="Quantity: "><extent unit="boxes">8 boxes</extent></physdesc> -->
+         <langmaterial label="Language: " encodinganalog="546"> 
+            <language encodinganalog="041" langcode="eng">English</language> 
+         </langmaterial>
+         <repository label="Repository:" encodinganalog="852">
+            <corpname>
+            Special Collections Research Center,
+            </corpname>
+            <corpname>
+            Syracuse University Libraries
+            </corpname>
+            <address>
+               <addressline> 222 Waverly Ave., Suite 600 </addressline>
+               <addressline> Syracuse, NY 13244-2010 </addressline>
+               <addressline>https://library.syracuse.edu/special-collections-research-center/university-archives</addressline>
+            </address>
+         </repository>
+         <abstract encodinganalog="520$a" label="Abstract: ">Records include conference materials, printed materials, administration files, and presidents' files for CNY-CACE.</abstract>
+      </did>
+
+   <descgrp type="admininfo">
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>Gift of CNY-CACE, 2000</p>
+      </acqinfo>
+
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <p>The majority of our archival and manuscript collections are housed offsite and require advanced notice for retrieval.
+         Researchers are encouraged to contact us in advance concerning the collection material they wish to access for their research.</p>
+      </accessrestrict>
+
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <p>Written permission must be obtained from SCRC and all relevant rights holders before publishing quotations, excerpts or images from any materials in this collection.</p>
+      </userestrict>
+
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Preferred citation for this material is as follows:</p>
+         <p>Central New York Coalition for Adult and Continuing Education (CNY-CACE) Records,</p>
+         <p>Special Collections Research Center,</p>
+         <p>Syracuse University Libraries</p>
+      </prefercite>
+
+      <!-- <appraisal encodinganalog="583">
+         <head>Appraisal Information</head>
+         <p>## OPT Give the value of the collection and the date appraised.</p>
+      </appraisal> -->
+      
+      <!-- <accruals encodinganalog="584">
+         <head>Accruals</head>
+         <p>## OPT If additions to the collection are anticipated, state when, how, how much, etc.</p>
+      </accruals> -->
+
+   </descgrp>
+
+      <bioghist encodinganalog="545">
+         <head>Biographical History</head>
+         <p>The Central New York Coalition for Adult and Continuing Education (CNY-CACE) started out as the Metropolitan Syracuse Committee on Adult and Continuing Education in the early 1960s.
+         They were an adult education organization with connections and programming across Metropolitan Syracuse.
+         The purpose of the organization was to facilitate the professional development and networking of members; promote community awareness of adult and continuing education programs and opportunities; provide various services to the community through workshops, information sessions, and written materials; foster a setting in which adult and continuing education professionals can develop and enhance their leadership skills;
+         and formally recognize the achievements of adult learners. </p>
+      </bioghist>
+
+      <scopecontent encodinganalog="520">
+         <head>Scope and Contents of the Collection</head>
+         <p>The <emph render="bold">Central New York Coalition for Adult and Continuing Education (CNY-CACE) Records</emph> contains administration files, conference materials, presidents’ files, and printed materials</p>
+         <p>The <emph render="bold">Administration files</emph>, 1989-1999 encompass many content formats and materials related to the general administrative functions and aspects of the organization including budget materials, bylaws correspondence, minutes, notes, and reports.</p>
+         <p>The <emph render="bold">Conference Materials, 1990-1999</emph> are materials related to CNY-CACE conferences and other conferences. For conference materials by CNY-CACE include planning materials, surveys, workshop materials, and conference ephemera. The materials by others include printed material from conferences, conference handouts, conference informational materials, and more.</p>
+         <p>The <emph render="bold">Presidents’ files, 1989-1999</emph> is a series containing materials corresponding to presidential leadership throughout the organizations’ history. Materials in this series include business cards, correspondence, faxes, notes, and other materials.</p>
+         <p>The <emph render="bold">Printed Materials, 1990-1999</emph> include brochures, fliers, and newsletters related and created by CNY-CACE and by others.</p>
+      </scopecontent>
+
+      <arrangement encodinganalog="351$a">
+         <head>Collection Arrangement</head>
+         <p>The confererence materials are arranged chronologically and the rest of the collection is arranged alphabetically.</p>
+      </arrangement>
+
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>SCRC holds numerous collections related to adult and continuing education. The adult education holdings are collectively known as the <extref href="https://library.syracuse.edu/special-collections-research-center/collections/collection-areas/charters-library/">Alexander N. Charters Library of Resources for Educators of Adults.</extref> Please refer to <extref href="https://library.syracuse.edu/digital/guides/ead/subj_list_from_db.htm">the SCRC Subject Index</extref> for a complete listing of all adult education collections. In particular, see the <archref href="caeo.htm">Coalition of Adult Education Organizations (CAEO) Records</archref> and <archref href="cepamp.htm">Continuing Education Pamphlet Collection.</archref></p>
+      </relatedmaterial>
+
+      <!-- <separatedmaterial encodinganalog="544 0">
+         <head>Separated Material</head>
+         <p>## OPT If any material has been removed from the collection (e.g., for cataloging, or for other reasons)
+            mention it here.</p>
+      </separatedmaterial> -->
+
+      <!-- <otherfindaid encodinganalog="555">
+         <head>Other Related Finding Aids</head>
+         <p>## OPT If there are other finding aids to the material (for example Excel spreadsheets, indexes, etc.) 
+            mention them here.</p>
+      </otherfindaid> -->
+
+
+      <!-- The controlaccess section contains the various subject headings (access points) for the collection.
+           Copy and paste to create more of them, as needed.  Use the Library of Congress Name Authority 
+           Files (lcnaf) and subject headings (lcsh), the Art and Architecture Thesaurus (aat), or other 
+           standards as applicable.  For each one, include the source attribute (for example, source="lcnaf"). 
+           If you need to use terms that aren't in any of the sources, that's fine, just set source="local" . 
+           Try to give as many access points as you can to increase the chances of 
+           researchers finding your data.  Any that you do not use, or that are not applicable, be sure 
+           to comment them out! -->
+
+      <controlaccess>
+         <head>Subject Headings</head>
+         <note>
+            <p>The following terms have been used to index the description of this collection in the Library's online catalog:</p>
+         </note>
+
+         <persname encodinganalog="600" source="local" rules="aacr2">Hiemstra, Rod.</persname>
+         <persname encodinganalog="600" source="local" rules="aacr2">Phelan, Tom.</persname>
+
+         <!-- <corpname encodinganalog="610" source="lcnaf">##</corpname> -->
+
+         <subject encodinganalog="650" source="lcsh">Adult Education</subject>
+         <subject encodinganalog="650" source="lcsh">Continuing Education</subject>
+
+         <genreform encodinganalog="655" source="aat">Agendas (administrative records)</genreform>
+         <genreform encodinganalog="655" source="aat">Brochures.</genreform>
+         <genreform encodinganalog="655" source="aat">Correspondence.</genreform>
+         <genreform encodinganalog="655" source="aat">Directories.</genreform>
+         <genreform encodinganalog="655" source="aat">Fliers (printed matter)</genreform>
+         <genreform encodinganalog="655" source="aat">Minutes (administrative records)</genreform>
+         <genreform encodinganalog="655" source="aat">Newsletters.</genreform>
+         <genreform encodinganalog="655" source="aat">Notes (documents)</genreform>
+         <genreform encodinganalog="655" source="aat">Printed ephemera.</genreform>
+         <genreform encodinganalog="655" source="aat">Reports.</genreform>
+
+         <occupation encodinganalog="656" source="lcsh">Educators.</occupation>
+        
+      </controlaccess>
+
+      <!-- END OF COLLECTION-LEVEL DESCRIPTION -->
+
+
+      <!-- ********************************************************************************************** -->
+      <!-- This second part is the INVENTORY, the detailed hierarchical list of folders in the collection -->
+      <!-- ********************************************************************************************** --> 
+
+      <dsc type="combined">
+         <head>Inventory</head>
+
+         <!--C01 @LEVEL must be set to 'series' to show up in TOC.-->
+         <!-- remember only ONE did per c0#.  Put the next item in a separate c02. -->
+         <!--Permissible values for @TYPE for first CONTAINER are 'Box' 'Oversize' 'Volume' 'Carton' or 'Map-Case' -->
+         <!--Permissible values for @TYPE for second CONTAINER are 'Folder' 'Frame' 'Page'  or 'Reel' -->
+
+         <c01 level="series">
+
+            <did>
+               <unittitle>Administrative files</unittitle>
+            </did>
+
+            <c02>
+               <did> 
+                  <unittitle>Awards and award-related documents,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Board minutes and meeting notes,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Business correspondence,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <physdesc>
+                     <extent>4 folders</extent>
+                  </physdesc>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Bylaws,</unittitle>
+                  <unitdate normal="1993" type="inclusive">1993</unitdate>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Corporate history,</unittitle>
+                  <unitdate normal="1989/1999" type="inclusive">1989-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Letterheads and templates,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Membership documents and directories,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Programming and events,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Projects,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Publicity,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Reports,</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container>
+               </did>
+            </c02>
+         </c01>
+
+         <c01 level="series">
+            <did>
+               <unittitle>Conference materials</unittitle>
+            </did>
+
+            <c02 level="subseries">
+               <did>
+                  <unittitle>CNY-CACE</unittitle>
+               </did>
+               <c03>
+                  <did> 
+                     <unittitle>1st annual conference,</unittitle>
+                     <unitdate normal="1993/1994" type="inclusive">1993-1994</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>2nd annual conference,</unittitle>
+                     <unitdate normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>3rd annual conference,</unittitle>
+                     <unitdate normal="1995/1996" type="inclusive">1995-1996</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+            </c02>
+
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Others</unittitle>
+               </did>
+               <c03>
+                  <did> 
+                     <unittitle>President’s Summit for America’s Future and America’s Promise,</unittitle>
+                     <unitdate normal="1997" type="inclusive">1997</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>TQL conference,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+
+         <c01 level="series">
+            <did>
+               <unittitle>Presidents' files</unittitle>
+            </did>
+            <c02>
+               <did> 
+                  <unittitle>Hiemstra, Rod</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container><container type="Folder">1</container>
+               </did>
+            </c02>
+            <c02>
+               <did> 
+                  <unittitle>Phelan, Tom</unittitle>
+                  <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                  <container type="Box">1</container><container type="Folder">1</container>
+               </did>
+            </c02>
+         </c01>
+
+         <c01 level="series">
+            <did>
+               <unittitle>Printed materials</unittitle>
+            </did>
+            <c02 level="subseries">
+               <did> 
+                  <unittitle>CNY-CACE</unittitle>
+               </did>
+               <c03>
+                  <did> 
+                     <unittitle>Fliers,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>Membership Brochures,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>Newsletters,</unittitle>
+                     <abstract>CACE Report</abstract>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did> 
+                  <unittitle>Others</unittitle>
+               </did>
+               <c03>
+                  <did> 
+                     <unittitle>Brochures,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>Fliers,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>Newsletters,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did> 
+                     <unittitle>Miscellaneous,</unittitle>
+                     <unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
+                     <abstract>newspaper, magazine article</abstract>
+                     <container type="Box">1</container><container type="Folder">1</container>
+                  </did>
+               </c03>
+            </c02>
+         </c01> 
+      </dsc>
+   </archdesc>
+</ead>
